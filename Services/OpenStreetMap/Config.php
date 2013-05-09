@@ -279,7 +279,7 @@ class Services_OpenStreetMap_Config
      */
     public function setPasswordfile($file)
     {
-        if (is_null($file)) {
+		if (is_null($file)) {
             return $this;
         }
         $lines = @file($file);
